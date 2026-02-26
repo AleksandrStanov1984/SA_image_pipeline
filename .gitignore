@@ -1,0 +1,60 @@
+# =========================
+# Laravel
+# =========================
+
+/vendor
+/node_modules
+/public/build
+/public/hot
+/storage/*.key
+/storage/logs/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/app/image-inbox/*
+/bootstrap/cache/*.php
+
+.env
+.env.*
+!.env.example
+
+phpunit.xml
+Homestead.json
+Homestead.yaml
+
+# =========================
+# IDE
+# =========================
+
+.idea/
+/.vscode/
+/*.code-workspace
+
+# =========================
+# OS
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+
+*.log
+
+# =========================
+# Build / Cache
+# =========================
+
+npm-debug.log
+yarn-error.log
+package-lock.json
+pnpm-lock.yaml
+
+# =========================
+# Reports (optional)
+# =========================
+
+/storage/app/reports/*.json
+/storage/app/reports/*.csv
